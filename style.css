@@ -123,10 +123,10 @@ font-size: 40px;
 }
  #send
  {
-	width: 300px;
-	height: 100px;
+	width: 160px;
+	height: 80px;
 	color:rgb(243, 233, 233);
-	font-size: 40px;
+	font-size: 30px;
 	border: black;
 	border-style: double;
 	border-width: 3px;
