@@ -5,7 +5,7 @@ user_fone = localStorage.getItem("user_fone");
 
 
   
-document.getElementById("frase").innerHTML = "BEM VINDO(A) " + user_name + "!";
+document.getElementById("frase").innerHTML = "Olá " + user_name + "!";
 
 function send()
 {
