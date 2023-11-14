@@ -123,8 +123,8 @@ font-size: 40px;
 }
  #send
  {
-	width: 160px;
-	height: 80px;
+	width: 300px;
+	height: 100px;
 	color:rgb(243, 233, 233);
 	font-size: 30px;
 	border: black;
@@ -133,7 +133,24 @@ font-size: 40px;
 	background-color: #d31212;
 	border-radius: 20px;
  }
- #text
+
+ #start
+ {
+	width: 300px;
+	height: 100px;
+	color:rgb(243, 233, 233);
+	font-size: 30px;
+	border: black;
+	border-style: double;
+	border-width: 3px;
+	background-color: #21c00c;
+	border-radius: 20px;
+ }
+
+
+
+
+ #texto
  {
 height: 300px;
 width: 500px;
@@ -147,3 +164,21 @@ border: 5px;
  {
 	color: aliceblue;
  }
+
+ #finall
+ {
+	width: 270px;
+	height: 300px;
+ }
+
+#audio
+{
+width: 200px;
+height: 200px;
+margin-right: 10px;
+padding-right: 10px;
+background-color: #d31212;
+color: white;
+font-size: 50px;
+
+}
