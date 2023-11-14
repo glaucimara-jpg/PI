@@ -9,7 +9,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -18,35 +18,35 @@
 <body style="background-color: rgb(5, 134, 134) ;">
 
 <div class="container">
-	
+	<button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">SAIR</button>
 	<center>
 		<h2 id="frase" style="color: aliceblue;">	
 		
 			
 		</h2>
-		<h3> ESCREVA NO ESPAÇO ABAIXO </h3>
+		<h3> ESCREVA NO ESPAÇO ABAIXO E CLIQUE NO BOTÃO ENVIAR </h3>
 	
 	</center>
-	
 </div>
+<br>
+<br>
 
 
 <center>
+
 	<div>
 		
-		<textarea id="text" cols="30" rows="5"></textarea>
+		<textarea id="texto" cols="30" rows="5"></textarea>
 		</div>
 		<br>
-
-		<div>
-		<button onclick="send()" id="send">Enviar</button>
-	</div>
-	<button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">SAIR</button>
-	
+		<br>
+		<button onclick="start()" id="start">GRAVAR ÁUDIO</button>
+		<br>
+		<br>
+		
+		<button onclick="send()" id="send">ENVIAR</button>
 	
 </center>
-	<br>
-	<br>
 
 <script src="room.js"></script>
 </body>
